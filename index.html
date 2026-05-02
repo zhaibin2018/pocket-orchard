@@ -8,29 +8,63 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main class="page">
-      <section class="hero">
-        <p class="eyebrow">Pocket Orchard</p>
-        <h1>Small, private apps for everyday life.</h1>
-        <p class="lede">
-          Pocket Orchard is a one-person software company building calm, focused apps that stay out of your way.
-        </p>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Pocket Orchard home">
+        <span class="brand-mark" aria-hidden="true">PO</span>
+        <span>Pocket Orchard</span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="#apps">Apps</a>
+        <a href="apps/tiny-mood-garden/privacy.html">Privacy</a>
+        <a href="apps/tiny-mood-garden/support.html">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-home">
+        <div class="hero-copy">
+          <p class="eyebrow">Pocket Orchard</p>
+          <h1>Small, private apps for everyday life.</h1>
+          <p class="lede">
+            A one-person software company building calm, focused apps that stay useful without getting noisy.
+          </p>
+          <div class="actions" aria-label="Primary actions">
+            <a class="button primary" href="apps/tiny-mood-garden/">View Tiny Mood Garden</a>
+            <a class="button secondary" href="#apps">See apps</a>
+          </div>
+        </div>
       </section>
 
-      <section class="section">
-        <h2>Apps</h2>
-        <article class="app">
-          <div>
+      <section id="apps" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Apps</p>
+          <h2>Careful little tools, shipped one at a time.</h2>
+        </div>
+
+        <article class="app-feature">
+          <div class="app-copy">
+            <p class="app-kicker">Free iPhone and iPad app</p>
             <h3>Tiny Mood Garden</h3>
-            <p>Plant one tiny mood each day and watch your private week bloom.</p>
+            <p>
+              Pick today's mood, plant a tiny seed, and watch your private week bloom. No account, no ads, no tracking.
+            </p>
+            <nav class="link-row" aria-label="Tiny Mood Garden links">
+              <a href="apps/tiny-mood-garden/">Overview</a>
+              <a href="apps/tiny-mood-garden/privacy.html">Privacy Policy</a>
+              <a href="apps/tiny-mood-garden/support.html">Support</a>
+            </nav>
           </div>
-          <nav aria-label="Tiny Mood Garden links">
-            <a href="apps/tiny-mood-garden/">Overview</a>
-            <a href="apps/tiny-mood-garden/privacy.html">Privacy</a>
-            <a href="apps/tiny-mood-garden/support.html">Support</a>
-          </nav>
+          <figure class="device-pair" aria-label="Tiny Mood Garden screenshots">
+            <img class="phone-shot front" src="assets/tiny-mood-garden/today.jpg" alt="Tiny Mood Garden Today screen showing a planted Happy mood.">
+            <img class="phone-shot back" src="assets/tiny-mood-garden/month.jpg" alt="Tiny Mood Garden month view showing a calendar of planted moods.">
+          </figure>
         </article>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <p>Pocket Orchard makes small, private apps for everyday life.</p>
+      <p><a href="mailto:davidzhai2012@gmail.com">davidzhai2012@gmail.com</a></p>
+    </footer>
   </body>
 </html>

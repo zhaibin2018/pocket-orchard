@@ -8,28 +8,58 @@
     <link rel="stylesheet" href="../../styles.css">
   </head>
   <body>
-    <main class="page">
-      <section class="hero">
-        <p class="eyebrow">Pocket Orchard</p>
-        <h1>Tiny Mood Garden</h1>
-        <p class="lede">
-          Plant one tiny mood each day and watch your private week bloom. No account, no ads, no tracking.
-        </p>
+    <header class="site-header">
+      <a class="brand" href="../../" aria-label="Pocket Orchard home">
+        <span class="brand-mark" aria-hidden="true">PO</span>
+        <span>Pocket Orchard</span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="../../#apps">Apps</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-app">
+        <div class="hero-copy">
+          <p class="eyebrow">Tiny Mood Garden</p>
+          <h1>Plant a tiny mood. Watch your week bloom.</h1>
+          <p class="lede">
+            A small private daily ritual for iPhone and iPad. No account, no ads, no tracking.
+          </p>
+          <div class="actions" aria-label="Tiny Mood Garden links">
+            <a class="button primary" href="privacy.html">Privacy Policy</a>
+            <a class="button secondary" href="support.html">Support</a>
+          </div>
+        </div>
       </section>
 
       <section class="section">
-        <h2>App Information</h2>
-        <article class="app">
-          <div>
-            <h3>Privacy-first by default</h3>
-            <p>Your mood entries stay on your device using local storage.</p>
-          </div>
-          <nav aria-label="Tiny Mood Garden support links">
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="support.html">Support</a>
-          </nav>
-        </article>
+        <div class="section-heading">
+          <p class="eyebrow">What it does</p>
+          <h2>A light daily check-in that stays on your device.</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Plant one mood each day</h3>
+            <p>Choose a mood and see it become a little plant for the day.</p>
+          </article>
+          <article>
+            <h3>See your week and month</h3>
+            <p>Review your moods as a soft garden calendar without charts or pressure.</p>
+          </article>
+          <article>
+            <h3>Private by default</h3>
+            <p>Your mood entries stay local. The app has no account, backend, ads, or tracking.</p>
+          </article>
+        </div>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <p>Tiny Mood Garden is made by Pocket Orchard.</p>
+      <p><a href="../../">Home</a></p>
+    </footer>
   </body>
 </html>
