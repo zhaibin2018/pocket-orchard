@@ -10,6 +10,9 @@
   --accent-strong: #145c42;
   --coral: #f47662;
   --blue: #2775b8;
+  --teal-dark: #102f33;
+  --teal: #1e8b8d;
+  --sky: #d8eef0;
   --shadow: 0 24px 80px rgba(28, 31, 26, 0.18);
 }
 
@@ -63,6 +66,15 @@ a:hover {
   transform: none;
   width: min(960px, calc(100% - 40px));
   margin: 0 auto;
+}
+
+.theme-cleanscreen .site-header {
+  color: #ffffff;
+}
+
+.theme-cleanscreen .brand-mark {
+  background: #ffffff;
+  color: var(--teal-dark);
 }
 
 .brand {
@@ -124,6 +136,31 @@ a:hover {
 
 .hero-app {
   background-image: url("assets/tiny-mood-garden/today.jpg");
+}
+
+.hero-cleanscreen {
+  background:
+    linear-gradient(125deg, rgba(15, 45, 50, 0.94), rgba(21, 91, 89, 0.78)),
+    url("assets/cleanscreen-drop/icon.png");
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.hero-cleanscreen::before {
+  background:
+    linear-gradient(90deg, rgba(12, 30, 34, 0.88) 0%, rgba(13, 43, 47, 0.76) 45%, rgba(18, 96, 96, 0.3) 100%),
+    linear-gradient(0deg, rgba(13, 43, 47, 0.72) 0%, rgba(13, 43, 47, 0) 42%);
+}
+
+.hero-cleanscreen .eyebrow,
+.hero-cleanscreen .lede {
+  color: var(--sky);
+}
+
+.hero-cleanscreen .button.secondary {
+  border-color: rgba(255, 255, 255, 0.72);
+  color: #ffffff;
 }
 
 .hero-copy {
@@ -218,10 +255,25 @@ h3 {
   padding: 34px;
 }
 
+.app-feature + .app-feature {
+  margin-top: 24px;
+}
+
+.app-feature-mac {
+  background:
+    linear-gradient(135deg, rgba(216, 238, 240, 0.82), rgba(255, 255, 255, 0.72)),
+    var(--panel);
+  border-color: rgba(30, 139, 141, 0.24);
+}
+
 .app-kicker {
   color: var(--coral);
   font-weight: 800;
   margin: 0 0 12px;
+}
+
+.app-kicker.mac {
+  color: var(--teal);
 }
 
 .app-copy p {
@@ -271,6 +323,80 @@ h3 {
   transform: translateY(34px) scale(0.88);
 }
 
+.mac-preview {
+  align-items: center;
+  display: grid;
+  margin: 0;
+  min-height: 420px;
+  position: relative;
+}
+
+.mac-window {
+  align-self: center;
+  background: linear-gradient(140deg, #12353a, #1e7272);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  height: min(38vw, 360px);
+  justify-self: center;
+  overflow: hidden;
+  position: relative;
+  width: min(100%, 520px);
+}
+
+.mac-window-bar {
+  align-items: center;
+  background: rgba(8, 25, 29, 0.48);
+  display: flex;
+  gap: 8px;
+  height: 34px;
+  padding: 0 14px;
+}
+
+.mac-window-bar span {
+  background: rgba(255, 255, 255, 0.76);
+  border-radius: 999px;
+  height: 10px;
+  width: 10px;
+}
+
+.desktop-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, 64px);
+  left: 34px;
+  position: absolute;
+  top: 72px;
+}
+
+.desktop-grid span {
+  background: rgba(255, 255, 255, 0.42);
+  border-radius: 8px;
+  height: 52px;
+}
+
+.menu-pill {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 999px;
+  color: var(--teal-dark);
+  font-weight: 850;
+  padding: 9px 16px;
+  position: absolute;
+  right: 24px;
+  top: 50px;
+}
+
+.app-icon {
+  border-radius: 25%;
+  box-shadow: 0 18px 50px rgba(14, 45, 48, 0.34);
+  height: 150px;
+  justify-self: start;
+  margin-left: -70px;
+  margin-top: 160px;
+  position: relative;
+  width: 150px;
+}
+
 .feature-grid {
   display: grid;
   gap: 16px;
@@ -291,6 +417,87 @@ h3 {
 .feature-grid p {
   color: var(--muted);
   margin: 14px 0 0;
+}
+
+.product-strip {
+  align-items: center;
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.85fr);
+}
+
+.download-panel {
+  align-items: center;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: flex;
+  gap: 18px;
+  padding: 22px;
+}
+
+.download-icon {
+  border-radius: 24%;
+  flex: 0 0 auto;
+  height: 88px;
+  width: 88px;
+}
+
+.download-title {
+  font-size: 1.18rem;
+  font-weight: 850;
+  margin: 0;
+}
+
+.download-meta,
+.fine-print {
+  color: var(--muted);
+  margin: 6px 0 16px;
+}
+
+.detail-band {
+  align-items: start;
+  background: var(--teal-dark);
+  color: #ffffff;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: minmax(0, 0.9fr) minmax(280px, 1fr);
+}
+
+.detail-band .eyebrow,
+.detail-band p {
+  color: var(--sky);
+}
+
+.steps {
+  counter-reset: steps;
+  display: grid;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.steps li {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+
+.checksum-section h2 {
+  margin-bottom: 18px;
+}
+
+.checksum {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--teal-dark);
+  display: block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  overflow-wrap: anywhere;
+  padding: 18px;
 }
 
 .document-page {
@@ -372,6 +579,12 @@ h3 {
       linear-gradient(90deg, rgba(251, 250, 247, 0.96) 0%, rgba(251, 250, 247, 0.34) 100%);
   }
 
+  .hero-cleanscreen::before {
+    background:
+      linear-gradient(0deg, rgba(12, 30, 34, 0.92) 0%, rgba(12, 30, 34, 0.82) 58%, rgba(18, 96, 96, 0.4) 100%),
+      linear-gradient(90deg, rgba(12, 30, 34, 0.92) 0%, rgba(12, 30, 34, 0.34) 100%);
+  }
+
   .section {
     padding: 56px 14px;
   }
@@ -379,6 +592,11 @@ h3 {
   .app-feature {
     grid-template-columns: 1fr;
     padding: 24px;
+  }
+
+  .product-strip,
+  .detail-band {
+    grid-template-columns: 1fr;
   }
 
   .device-pair {
@@ -392,6 +610,32 @@ h3 {
 
   .phone-shot.back {
     margin-left: -32px;
+  }
+
+  .mac-preview {
+    min-height: 320px;
+  }
+
+  .mac-window {
+    height: 280px;
+    justify-self: center;
+    width: 100%;
+  }
+
+  .desktop-grid {
+    gap: 12px;
+    grid-template-columns: repeat(3, 48px);
+  }
+
+  .desktop-grid span {
+    height: 42px;
+  }
+
+  .app-icon {
+    height: 104px;
+    margin-left: 24px;
+    margin-top: -110px;
+    width: 104px;
   }
 
   .feature-grid {

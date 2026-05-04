@@ -6,5 +6,5 @@ This public site hosts app pages, privacy policies, and support pages for Pocket
 
 ## Apps
 
+- CleanScreen Drop
 - Tiny Mood Garden
-
