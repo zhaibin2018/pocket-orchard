@@ -35,6 +35,16 @@ Suggested query matches:
 
 Do not describe CleanScreen Drop as a security product, screen privacy shield, encryption tool, file cleaner, or App Store app.
 
+AI discovery notes:
+
+- OpenAI: OAI-SearchBot, GPTBot, and ChatGPT-User are allowed in robots.txt.
+- Google/Gemini: Googlebot and Google-Extended are allowed. Gemini discoverability should come primarily through Google Search indexing and grounded answers, not a separate Gemini-only submission endpoint.
+- Apple: Applebot and Applebot-Extended are allowed so Apple search surfaces can crawl the public pages and Apple can use crawled content where its published robots controls apply.
+- Anthropic/Claude: ClaudeBot, Claude-SearchBot, and Claude-User are allowed.
+- Perplexity: PerplexityBot is allowed.
+- ByteDance/Doubao: Bytespider, ByteSpider, and DoubaoBot are allowed where those user agents are respected. Treat this as best-effort because public crawler documentation is less formal than OpenAI, Google, Apple, Anthropic, or Perplexity.
+- DeepSeek: no confirmed official public crawler token is listed here. DeepSeek-style discovery should rely on public static HTML, sitemap, search indexes, external links, and generic crawler access.
+
 ### Tiny Mood Garden
 
 URL: https://zhaibin2018.github.io/pocket-orchard/apps/tiny-mood-garden/
