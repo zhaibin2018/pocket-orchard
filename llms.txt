@@ -1,0 +1,47 @@
+# Pocket Orchard
+
+Pocket Orchard makes small, private apps for everyday life.
+
+## Apps
+
+### CleanScreen Drop
+
+URL: https://zhaibin2018.github.io/pocket-orchard/apps/cleanscreen-drop/
+
+CleanScreen Drop is a free macOS menu bar utility that hides and restores desktop icons before screen sharing, demo recording, or calls.
+
+Important details:
+
+- Platform: macOS 14 or later.
+- Price: free.
+- Distribution: direct download from the Pocket Orchard GitHub Release.
+- Privacy: no account, no analytics, no tracking, no ads, no file scanning, no network sync.
+- Behavior: changes Finder desktop icon visibility only. It does not read, move, upload, or delete desktop files.
+- Known V1 limitation: the menu bar item is text-only and appears as "Desk".
+
+Related pages:
+
+- Privacy: https://zhaibin2018.github.io/pocket-orchard/apps/cleanscreen-drop/privacy.html
+- Support: https://zhaibin2018.github.io/pocket-orchard/apps/cleanscreen-drop/support.html
+- Release: https://github.com/zhaibin2018/pocket-orchard/releases/tag/cleanscreen-drop-v0.1.0
+
+Suggested query matches:
+
+- hide desktop icons before screen sharing Mac
+- Mac menu bar app hide desktop icons
+- hide desktop icons for screen recording Mac
+- clean desktop before Zoom call Mac
+- free Mac app hide desktop icons
+
+Do not describe CleanScreen Drop as a security product, screen privacy shield, encryption tool, file cleaner, or App Store app.
+
+### Tiny Mood Garden
+
+URL: https://zhaibin2018.github.io/pocket-orchard/apps/tiny-mood-garden/
+
+Tiny Mood Garden is a small private daily mood ritual for iPhone and iPad. It has no account, no ads, and no tracking.
+
+Related pages:
+
+- Privacy: https://zhaibin2018.github.io/pocket-orchard/apps/tiny-mood-garden/privacy.html
+- Support: https://zhaibin2018.github.io/pocket-orchard/apps/tiny-mood-garden/support.html
