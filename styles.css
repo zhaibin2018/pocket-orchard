@@ -500,6 +500,32 @@ h3 {
   padding: 18px;
 }
 
+.faq-section h2 {
+  margin-bottom: 28px;
+}
+
+.faq-list {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.faq-list article {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 22px;
+}
+
+.faq-list h3 {
+  font-size: 1.2rem;
+}
+
+.faq-list p {
+  color: var(--muted);
+  margin: 10px 0 0;
+}
+
 .document-page {
   margin: 0 auto;
   width: min(960px, calc(100% - 40px));
@@ -639,6 +665,10 @@ h3 {
   }
 
   .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-list {
     grid-template-columns: 1fr;
   }
 
