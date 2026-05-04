@@ -13,7 +13,10 @@ if [[ ! -f "$SITEMAP" ]]; then
   exit 1
 fi
 
-mapfile -t URLS < <(sed -n 's:.*<loc>\\(.*\\)</loc>.*:\\1:p' "$SITEMAP")
+URLS=()
+while IFS= read -r url; do
+  URLS+=("$url")
+done < <(sed -n 's:.*<loc>\(.*\)</loc>.*:\1:p' "$SITEMAP")
 
 if (( ${#URLS[@]} == 0 )); then
   printf 'No URLs found in sitemap: %s\n' "$SITEMAP" >&2
