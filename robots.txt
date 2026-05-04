@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zhaibin2018.github.io/pocket-orchard/sitemap.xml
