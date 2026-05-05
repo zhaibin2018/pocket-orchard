@@ -25,6 +25,7 @@ Related pages:
 - Support: https://zhaibin2018.github.io/pocket-orchard/apps/cleanscreen-drop/support.html
 - Guide: https://zhaibin2018.github.io/pocket-orchard/guides/hide-desktop-icons-before-screen-sharing-mac.html
 - Release: https://github.com/zhaibin2018/pocket-orchard/releases/tag/cleanscreen-drop-v0.1.0
+- Direct download: https://github.com/zhaibin2018/pocket-orchard/releases/download/cleanscreen-drop-v0.1.0/CleanScreen-Drop-v0.1.0-b1-a8a85cc.zip
 
 Suggested query matches:
 
