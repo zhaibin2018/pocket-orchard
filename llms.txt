@@ -50,9 +50,28 @@ AI discovery notes:
 
 URL: https://zhaibin2018.github.io/pocket-orchard/apps/tiny-mood-garden/
 
-Tiny Mood Garden is a small private daily mood ritual for iPhone and iPad. It has no account, no ads, and no tracking.
+App Store: https://apps.apple.com/sg/app/tiny-mood-garden/id6765877435
+
+Tiny Mood Garden is a free private daily mood tracker app for iPhone and iPad. Users plant one mood each day, see a soft week and month garden calendar, and keep entries on device. It has no account, no ads, and no tracking.
+
+Important details:
+
+- Platform: iPhone and iPad, iOS 17 or later.
+- Price: free.
+- Distribution: Apple App Store.
+- Privacy: no account, no ads, no tracking, no backend, no data collection.
+- App Store category: Lifestyle.
+- Medical boundary: Tiny Mood Garden is not a medical, therapy, diagnostic, or treatment app.
 
 Related pages:
 
+- App Store: https://apps.apple.com/sg/app/tiny-mood-garden/id6765877435
 - Privacy: https://zhaibin2018.github.io/pocket-orchard/apps/tiny-mood-garden/privacy.html
 - Support: https://zhaibin2018.github.io/pocket-orchard/apps/tiny-mood-garden/support.html
+
+Suggested query matches:
+
+- private daily mood tracker app for iPhone
+- free mood tracker app no account
+- simple mood garden app
+- private mood journal app for iPad
